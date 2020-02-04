@@ -60,11 +60,17 @@ namespace MadsMikkel.HandBook.DataAccess.SqlClient
         public void Add(Employee employee) 
         {
             string sql = $"INSERT INTO Employees " +
-                $"FirstName, LastName, Title, TitleOfCourtesy, BirthDate, HireDate" +
-                $"VALUES($'{employee.Firstname}', '{employee.Lastname}', '{employee.Title}'," +
-                $"'{employee.TitleOfCourtesy}', '{employee.BirthDate.ToString("YYYY-MM-DD")}'," +
-                $"'{employee.HireDate.ToString("YYYY-MM-DD")}')";
+                $"(FirstName, LastName, Title, TitleOfCourtesy, BirthDate, HireDate) " +
+                $"VALUES ('{employee.Firstname}', '{employee.Lastname}', " +
+                $"'{employee.Title}', '{employee.TitleOfCourtesy}', " +
+                $"'{employee.BirthDate.ToString("s")}'," +
+                $"'{employee.HireDate.ToString("s")}')";
+            
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlCommand command = new SqlCommand(sql, connection);
+            connection.Open();
+            command.ExecuteNonQuery();
+            connection.Close();
         }
-
     }
 }
