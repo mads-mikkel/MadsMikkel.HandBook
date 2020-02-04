@@ -56,5 +56,15 @@ namespace MadsMikkel.HandBook.DataAccess.SqlClient
             connection.Close();
             return employees;
         }
+
+        public void Add(Employee employee) 
+        {
+            string sql = $"INSERT INTO Employees " +
+                $"FirstName, LastName, Title, TitleOfCourtesy, BirthDate, HireDate" +
+                $"VALUES($'{employee.Firstname}', '{employee.Lastname}', '{employee.Title}'," +
+                $"'{employee.TitleOfCourtesy}', '{employee.BirthDate.ToString("YYYY-MM-DD")}'," +
+                $"'{employee.HireDate.ToString("YYYY-MM-DD")}')";
+        }
+
     }
 }

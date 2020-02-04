@@ -8,7 +8,11 @@ namespace TestProgram
         static void Main(string[] args)
         {
             EmployeeRepository repository = new EmployeeRepository();
-            repository.GetAll();
+
+            foreach(var item in repository.GetAll())
+            {
+                Console.WriteLine(item.Firstname);
+            }
         }
     }
 }
