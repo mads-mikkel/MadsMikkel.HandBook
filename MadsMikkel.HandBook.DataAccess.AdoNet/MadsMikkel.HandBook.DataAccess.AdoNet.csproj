@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MadsMikkel.HandBook.NorthWind.SimpleEntities\MadsMikkel.HandBook.NorthWind.SimpleEntities.csproj" />
+  </ItemGroup>
+
 </Project>

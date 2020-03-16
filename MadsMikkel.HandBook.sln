@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadsMikkel.HandBook.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadsMikkel.HandBook.DataAccess.AdoNet", "MadsMikkel.HandBook.DataAccess.AdoNet\MadsMikkel.HandBook.DataAccess.AdoNet.csproj", "{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadsMikkel.HandBook.NorthWind.SimpleEntities", "MadsMikkel.HandBook.NorthWind.SimpleEntities\MadsMikkel.HandBook.NorthWind.SimpleEntities.csproj", "{73E55941-8031-40C5-98A7-AE7AA8639744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E55941-8031-40C5-98A7-AE7AA8639744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E55941-8031-40C5-98A7-AE7AA8639744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E55941-8031-40C5-98A7-AE7AA8639744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E55941-8031-40C5-98A7-AE7AA8639744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
