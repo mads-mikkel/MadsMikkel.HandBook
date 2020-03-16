@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadsMikkel.HandBook.DataAccess.SqlClient", "MadsMikkel.HandBook.DataAccess.SqlClient\MadsMikkel.HandBook.DataAccess.SqlClient.csproj", "{D2060F59-4A15-47AA-ADB6-6806A528D15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadsMikkel.HandBook.DataAccess.SqlClient", "MadsMikkel.HandBook.DataAccess.SqlClient\MadsMikkel.HandBook.DataAccess.SqlClient.csproj", "{D2060F59-4A15-47AA-ADB6-6806A528D15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadsMikkel.HandBook.DataAccess.AdoNet", "MadsMikkel.HandBook.DataAccess.AdoNet\MadsMikkel.HandBook.DataAccess.AdoNet.csproj", "{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D2060F59-4A15-47AA-ADB6-6806A528D15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2060F59-4A15-47AA-ADB6-6806A528D15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2060F59-4A15-47AA-ADB6-6806A528D15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7625CBD5-9AA8-4C74-BF94-C6EFD8D9CD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
